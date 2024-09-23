@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./components/Button";
+import Container from "./components/Container";
 import Input from "./components/Input";
 // import Greet from "./components/Greet";
 // import Heading from "./components/Heading";
@@ -41,6 +42,7 @@ function App() {
           console.log("e", event);
         }}
       />
+      <Container styles={{ border: "1px solid black", padding: "1rem" }} />
     </>
   );
 }
